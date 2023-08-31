@@ -14,6 +14,6 @@ RUN apk add shadow \
 	less \
 	bash && \
     gem install --no-rdoc --no-ri \
-	puppet:"3.6.2"
+	json_pure:2.5.1 puppet:3.6.2
 
 ENTRYPOINT ["/usr/bin/puppet"]
