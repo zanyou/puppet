@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.12
 
 # alpine linux edge signing keys rotated at 2022-07-14
 RUN apk add -X https://dl-cdn.alpinelinux.org/alpine/edge/main -u alpine-keys --allow-untrusted
