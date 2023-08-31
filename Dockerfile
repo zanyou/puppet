@@ -8,7 +8,6 @@ RUN echo https://dl-cdn.alpinelinux.org/alpine/edge/testing/ >> /etc/apk/reposit
 # Get access to ruby < 2.2 to avoid syck errors on puppet 3.x
 RUN echo https://dl-cdn.alpinelinux.org/alpine/v3.1/main/ >> /etc/apk/repositories
 
-RUN apk upgrade --update --available
 RUN apk add shadow \ 
 	'ruby<2.2' \ 
 	less \
